@@ -1,0 +1,126 @@
+ul {
+    list-style: none; /* Remove bullets from the list */
+}
+
+.main-head{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #ffe001;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.express{
+    font-size: 19px;
+    font-weight: 700;  
+    text-align: end; 
+}
+.Number{
+    font-size: 40px;
+    font-weight: 700;
+}
+.toll{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
+.Nav-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hungry{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: cursive;
+    margin-bottom: 20px;
+
+
+}
+.now{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.happy{
+    font-size:  26px;
+    font-weight: 700;
+    font-family: cursive;
+    margin-top: 20px;
+
+}
+.order{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border:  1px solid black;
+}
+.baricon{
+    display: none;
+}
+.link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+@media screen and (max-width: 640px){
+    .toll{
+        display: none;
+    }
+    .main-content-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .dont-wait{
+        height: 45px;
+    }
+    .main-image{
+        margin-top: 20px;
+        height: 330px;
+    }
+    .now{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .hungry{
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .header{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .baricon{
+        display:  block;
+        font-size: 30px;
+    }
+}
+
